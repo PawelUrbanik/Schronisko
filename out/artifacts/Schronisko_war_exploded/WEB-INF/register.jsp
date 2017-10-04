@@ -12,10 +12,11 @@
 </head>
 <body>
 
+
 <div class="container">
 
-    <form class="form-signin" action="j_security_check" method="#">
-        <h2 class="form-signin-heading">Zarejestruj się</h2>
+    <form class="form-signin" action="register" method="post">
+        <h2 class="form-signin-heading">Zarejestruj się  </h2>
         <input name="inputFirstName" type="text" class="form-control" placeholder="Imię" required autofocus>
         <input name="inputLastname" type="text" class="form-control" placeholder="Nazwisko" required autofocus>
         <input name="inputEmail" type="email" class="form-control" placeholder="Email" required autofocus>

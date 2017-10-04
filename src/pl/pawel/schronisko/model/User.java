@@ -3,7 +3,8 @@ package pl.pawel.schronisko.model;
 public class User {
     private long id;
     private String username;
-    private String lastName;
+    private String firstname;
+    private String lastname;
     private String email;
     private String password;
 
@@ -14,7 +15,7 @@ public class User {
     {
         this.setId(user.getId());
         this.setUsername(user.getUsername());
-        this.setLastName(user.getLastName());
+        this.setLastname(user.getLastname());
         this.setEmail(user.getEmail());
         this.setPassword(user.getPassword());
     }
@@ -22,7 +23,7 @@ public class User {
     public User(long id, String username, String lastName, String email, String password) {
         this.id = id;
         this.username = username;
-        this.lastName = lastName;
+        this.lastname = lastName;
         this.email = email;
         this.password = password;
     }
@@ -35,6 +36,14 @@ public class User {
         this.id = id;
     }
 
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
     public String getUsername() {
         return username;
     }
@@ -43,12 +52,12 @@ public class User {
         this.username = username;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public String getEmail() {
@@ -76,7 +85,7 @@ public class User {
 
         if (id != user.id) return false;
         if (username != null ? !username.equals(user.username) : user.username != null) return false;
-        if (lastName != null ? !lastName.equals(user.lastName) : user.lastName != null) return false;
+        if (lastname != null ? !lastname.equals(user.lastname) : user.lastname != null) return false;
         if (email != null ? !email.equals(user.email) : user.email != null) return false;
         return password != null ? password.equals(user.password) : user.password == null;
     }
@@ -85,7 +94,7 @@ public class User {
     public int hashCode() {
         int result = (int) (id ^ (id >>> 32));
         result = 31 * result + (username != null ? username.hashCode() : 0);
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (lastname != null ? lastname.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
         return result;
@@ -96,7 +105,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", lastName='" + lastname + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 '}';

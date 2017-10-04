@@ -19,7 +19,7 @@
         <input name="j_username" type="text" class="form-control" placeholder="Nazwa użytkownika" required autofocus>
         <input name="j_password" type="password" class="form-control" placeholder="Hasło" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <a href="#">Zarejestruj</a>
+        <a href="${pageContext.request.contextPath}/register">Zarejestruj</a>
     </form>
 
 </div> <!-- /container -->
