@@ -20,8 +20,7 @@ public class UserDAOImpl implements UserDAO {
             ":username, :firstname, :lastname, :email, :password);";
     private static final String READ_USER ="SELECT userId, username, firstname, lastname, email, password FROM user " +
             "WHERE userId =:userId;" ;
-    private static final String READ_USER_BY_USERNAME = "SELECT userId, firstname, lastname, email, password FROM USER " +
-            " WHERE username= :username;";
+    private static final String READ_USER_BY_USERNAME = "SELECT userId, username, firstname, lastname, email, password FROM user WHERE username = :username ;";
     private NamedParameterJdbcTemplate template;
 
     public UserDAOImpl()
@@ -61,7 +60,7 @@ public class UserDAOImpl implements UserDAO {
 
     public User getUserByUsername(String username)
     {
-        User resultUser = null;
+        User resultUser = new User();
         SqlParameterSource parameterSource = new MapSqlParameterSource("username", username);
         resultUser = template.queryForObject(READ_USER_BY_USERNAME, parameterSource, new UserRowMapper());
         return resultUser;
@@ -94,7 +93,7 @@ public class UserDAOImpl implements UserDAO {
             user.setLastname(resultSet.getString("lastname"));
             user.setEmail(resultSet.getString("email"));
             user.setPassword(resultSet.getString("password"));
-            return null;
+            return user;
         }
     }
 }
