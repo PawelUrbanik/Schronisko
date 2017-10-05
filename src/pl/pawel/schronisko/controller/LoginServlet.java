@@ -13,6 +13,14 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        if (request.getUserPrincipal() != null)
+        {
+            response.sendRedirect(request.getContextPath()+"/");
+        }
+        else
+        {
+            response.sendError(403);
+        }
 
     }
 }

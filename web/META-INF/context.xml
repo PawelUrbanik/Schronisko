@@ -1,24 +1,25 @@
-<?xml verion="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
 <Context>
     <Resource
-        name="jdbc/schronisko"
-        auth="Container"
-        type="javax.sql.DataSource"
-        initialSize="10"
-        maxTotal="100"
-        maxIdle="30"
-        maxWaitMillis="10000"
-        username="root"
-        password="admin"
-        driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://localhost:3306/schronisko" />
+            name="jdbc/schronisko"
+            auth="Container"
+            type="javax.sql.DataSource"
+            initialSize="10"
+            maxTotal="100"
+            maxIdle="30"
+            maxWaitMillis="10000"
+            username="root"
+            password="admin"
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/schronisko" />
+
     <Realm
-        className="org.apache.catalina.realm.DataSource"
-        dataSourceName="jdbc/schronisko"
-        userTable="user"
-        userNameCol="username"
-        userCredCol="password"
-        userRoleTable="user_role"
-        roleNameCol="roleName"
-        localDataSource="true" />
+            className="org.apache.catalina.realm.DataSourceRealm"
+            dataSourceName="jdbc/schronisko"
+            userTable="user"
+            userNameCol="username"
+            userCredCol="password"
+            userRoleTable="user_role"
+            roleNameCol="role_name"
+            localDataSource="true" />
 </Context>
