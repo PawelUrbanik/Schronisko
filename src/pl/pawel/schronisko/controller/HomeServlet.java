@@ -14,7 +14,6 @@ import java.io.IOException;
 public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         DataSource dataSource = ConnectionProvider.getDataSource();
-        System.out.println(dataSource);
-    request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
+        request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
     }
 }

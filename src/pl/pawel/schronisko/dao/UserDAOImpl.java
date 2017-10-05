@@ -38,16 +38,38 @@ public class UserDAOImpl implements UserDAO {
         if (update > 0)
         {
             newUser.setId((Long)holder.getKey());
-            setPrivigiles(newUser);
+            setPrivigiles(newUser, 0);
             
         }
         return newUser;
     }
 
-    private void setPrivigiles(User user) {
-        final String userRoleQuery = "INSERT INTO user_role(username) VALUES(:username);";
+    private void setPrivigiles(User user, int type) {
+          final String  userRoleQuery = "INSERT INTO user_role(username) VALUES(:username);";
+
         SqlParameterSource parameterSource = new BeanPropertySqlParameterSource(user);
         template.update(userRoleQuery, parameterSource);
+    }
+    public User addStaff(User user)
+    {
+        User newStaff = new User(user);
+        KeyHolder holder = new GeneratedKeyHolder();
+        SqlParameterSource parameterSource = new BeanPropertySqlParameterSource(user);
+        int update = template.update(CREATE_USER, parameterSource, holder);
+        if (update >0 )
+        {
+            newStaff.setId((Long) holder.getKey());
+            setPrivigilesStaff(newStaff);
+        }
+        return newStaff;
+    }
+
+    private void setPrivigilesStaff(User user)
+    {
+        System.out.println("staff");
+        final String userRoleQuery = "INSERT INTO user_role(role_name, username) VALUES( 'staff' , :username);";
+        SqlParameterSource parameterSource = new BeanPropertySqlParameterSource(user);
+        template.update(userRoleQuery,parameterSource);
     }
 
     @Override
@@ -65,6 +87,7 @@ public class UserDAOImpl implements UserDAO {
         resultUser = template.queryForObject(READ_USER_BY_USERNAME, parameterSource, new UserRowMapper());
         return resultUser;
     }
+
 
     @Override
     public boolean update(User updatedObject) {
