@@ -21,6 +21,8 @@ public class UserDAOImpl implements UserDAO {
     private static final String READ_USER ="SELECT userId, username, firstname, lastname, email, password FROM user " +
             "WHERE userId =:userId;" ;
     private static final String READ_USER_BY_USERNAME = "SELECT userId, username, firstname, lastname, email, password FROM user WHERE username = :username ;";
+    private static final String READ_PRIVIGILES = "SELECT role_name FROM user_role WHERE username = :username ;";
+
     private NamedParameterJdbcTemplate template;
 
     public UserDAOImpl()
@@ -71,7 +73,14 @@ public class UserDAOImpl implements UserDAO {
         SqlParameterSource parameterSource = new BeanPropertySqlParameterSource(user);
         template.update(userRoleQuery,parameterSource);
     }
-
+/*********************************************************************************************************/
+    @Override
+    public String getPrivigiles(String username) {
+        SqlParameterSource parameterSource = new MapSqlParameterSource("username", username);
+        String privigiles = template.queryForObject(READ_PRIVIGILES,parameterSource, new PrivigilesRowMapper());
+        System.out.println(privigiles);
+        return privigiles;
+    }
     @Override
     public User read(Long primaryKey) {
         User resultUser = null;
@@ -117,6 +126,14 @@ public class UserDAOImpl implements UserDAO {
             user.setEmail(resultSet.getString("email"));
             user.setPassword(resultSet.getString("password"));
             return user;
+        }
+    }
+    private class PrivigilesRowMapper implements  RowMapper<String>
+    {
+
+        @Override
+        public String mapRow(ResultSet resultSet, int i) throws SQLException {
+            return resultSet.getString("role_name");
         }
     }
 }

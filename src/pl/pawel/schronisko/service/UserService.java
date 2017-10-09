@@ -31,6 +31,13 @@ public class UserService {
         return user;
     }
 
+    public String getPrivigiles(String username)
+    {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        UserDAO userDAO = factory.getUserDAO();
+         return userDAO.getPrivigiles(username);
+    }
+
 
     public User getUserById(long id)
     {

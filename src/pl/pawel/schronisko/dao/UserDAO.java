@@ -10,4 +10,6 @@ public interface UserDAO extends GenericDAO<User, Long> {
     User getUserByUsername(String username);
 
     User addStaff(User user);
+
+    String getPrivigiles(String username);
 }
