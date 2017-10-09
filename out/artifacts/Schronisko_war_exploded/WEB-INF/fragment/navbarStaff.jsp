@@ -15,7 +15,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Strona główna</a></li>
-                <li><a href="${pageContext.request.contextPath}/addStaff">Dodaj zwierzę</a></li>
+                <li><a href="${pageContext.request.contextPath}/addAnimal">Dodaj zwierzę</a></li>
                 <li><a href="#contact">Kontakt</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

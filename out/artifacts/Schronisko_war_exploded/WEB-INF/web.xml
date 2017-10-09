@@ -3,7 +3,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+    
     <display-name>Schronisko v0.9</display-name>
+    
     <security-role>
         <role-name>admin</role-name>
     </security-role>
@@ -13,6 +15,8 @@
     <security-role>
         <role-name>staff</role-name>
     </security-role>
+    
+    
     <security-constraint>
         <display-name>Login required</display-name>
         <web-resource-collection>
@@ -28,6 +32,34 @@
             <role-name>staff</role-name>
         </auth-constraint>
     </security-constraint>
+    
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>AuthAdmin</web-resource-name>
+            <url-pattern>/addStaff</url-pattern>
+            <http-method>GET</http-method>
+            <http-method>POST</http-method>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+    
+    
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>AuthAddAnimal</web-resource-name>
+            <url-pattern>/addAnimal</url-pattern>
+            <http-method>GET</http-method>
+            <http-method>POST</http-method>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+            <role-name>staff</role-name>
+        </auth-constraint>
+    </security-constraint>
+    
     <login-config>
         <auth-method>FORM</auth-method>
         <form-login-config>
@@ -35,6 +67,8 @@
             <form-error-page>/WEB-INF/login.jsp</form-error-page>
         </form-login-config>
     </login-config>
+    
+    
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
