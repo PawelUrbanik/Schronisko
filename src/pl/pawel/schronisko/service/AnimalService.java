@@ -6,6 +6,8 @@ import pl.pawel.schronisko.model.Animal;
 import pl.pawel.schronisko.model.AnimalSex;
 import pl.pawel.schronisko.model.AnimalType;
 
+import java.util.List;
+
 public class AnimalService {
     public void addAnimal(String name, String description, int age, String sex, String type)
     {
@@ -34,5 +36,13 @@ public class AnimalService {
         DAOFactory factory = DAOFactory.getDAOFactory();
         AnimalDAO animalDAO = factory.getAnimalDAO();
         animalDAO.create(animal);
+    }
+
+    public List<Animal> getAllAnimal()
+    {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        AnimalDAO animalDAO = factory.getAnimalDAO();
+        List<Animal> animals = animalDAO.getAll();
+        return animals;
     }
 }
