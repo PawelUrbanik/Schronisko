@@ -8,4 +8,8 @@ public interface UserDAO extends GenericDAO<User, Long> {
     List<User> getAll();
 
     User getUserByUsername(String username);
+
+    User addStaff(User user);
+
+    String getPrivigiles(String username);
 }

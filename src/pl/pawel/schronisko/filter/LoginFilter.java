@@ -26,8 +26,11 @@ public class LoginFilter implements Filter {
     private void saveUserinSession(HttpServletRequest request) {
         UserService userService = new UserService();
         String username = request.getUserPrincipal().getName();
+        String privigiles = userService.getPrivigiles(username);
         User userByUsername = userService.getUserByUsername(username);
         request.getSession(true).setAttribute("user", userByUsername);
+        request.getSession().setAttribute("privigiles", privigiles);
+        System.out.println(request.getSession().getAttribute("privigiles"));
     }
 
     public void init(FilterConfig config) throws ServletException {
