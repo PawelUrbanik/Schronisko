@@ -17,7 +17,7 @@ import java.util.List;
 public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         saveAnimalsInRequest(request);
-        System.out.println(request.getAttribute("animals"));
+       // System.out.println(request.getAttribute("animals"));
         request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
     }
 

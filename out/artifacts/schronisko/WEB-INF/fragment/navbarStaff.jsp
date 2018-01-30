@@ -1,8 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<style><%@include file="/resources/css/styles.css"%></style>
 <!-- Fixed navbar -->
-<!--
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -17,9 +15,9 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="/">Strona główna</a></li>
-                <li><a href="${pageContext.request.contextPath}/addStaff">O aplikacji</a></li>
+                <li><a href="${pageContext.request.contextPath}/addAnimal">Dodaj zwierzę</a></li>
                 <li><a href="#contact">Kontakt</a></li>
-                <li class="dropdown">
+                <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Action</a></li>
@@ -30,7 +28,7 @@
                         <li><a href="#">Separated link</a></li>
                         <li><a href="#">One more separated link</a></li>
                     </ul>
-                </li>
+                </li>-->
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <c:choose>
@@ -42,31 +40,6 @@
                     </c:otherwise>
                 </c:choose>
             </ul>
-        </div><!--/.nav-collapse
-    </div>
-</nav>
--->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu" aria-expanded="false">
-                <span class="sr-only">Przełącznik nawigacji</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <strong>4</strong> łapy
-            </a>
-        </div>
-
-        <div class="collapse navbar-collapse navbar-right mainmenu" id="mainmenu">
-            <ul class="nav navbar-nav">
-                <li><a href="/">Strona główna</a></li>
-                <li><a href="${pageContext.request.contextPath}/addStaff">O aplikacji</a></li>
-                <li><a href="#contacts">Kontakt</a></li>
-                <li><a href="#przegladaj" class="btn btn-default">Przeglądaj</a></li>
-            </ul>
-        </div>
+        </div><!--/.nav-collapse -->
     </div>
 </nav>

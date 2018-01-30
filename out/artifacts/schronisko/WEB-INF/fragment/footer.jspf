@@ -1,0 +1,6 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<footer class="footer">
+    <div class="container">
+        <p class="navbar-text">Schronisko developed by<a href="https://github.com/PawelUrbanik">Paweł Urbanik </a></p>
+    </div>
+</footer>
