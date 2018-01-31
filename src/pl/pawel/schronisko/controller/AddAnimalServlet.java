@@ -7,6 +7,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 
 @WebServlet("/addAnimal")
@@ -21,8 +22,17 @@ public class AddAnimalServlet extends HttpServlet {
         int age = Integer.parseInt(request.getParameter("inputAge"));
         String sex = request.getParameter("inputGender");
         String type = request.getParameter("inputType");
+        File photo = new File(request.getParameter("inputPhoto"));
+        System.out.println("absolute:" + photo.getAbsolutePath());
+        System.out.println("caonical: "+ photo.getCanonicalPath());
+        System.out.println("Absolute file: " + photo.getAbsoluteFile());
+        System.out.println( "name: " +photo.getName());
+        System.out.println("path: " + photo.getPath());
+        System.out.println("to path: "+  photo.toPath());
+        System.out.println("to uri" + photo.toURI());
+        String photoPath = photo.getAbsolutePath();
         AnimalService animalService = new AnimalService();
-        animalService.addAnimal(name,description,age,sex,type);
+        animalService.addAnimal(name,description,age,sex,type, photoPath);
         response.sendRedirect(request.getContextPath()+"/");
     }
 

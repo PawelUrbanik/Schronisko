@@ -24,6 +24,7 @@
         <input type="radio" name="inputActivity" value="high"> Duża <br>
         Opis:<br>
         <textarea rows="4" cols="50" name="inputDescription" class="form-control" placeholder="Opis" required></textarea><br>
+        <input type="file" name="inputPhoto">Wybierz plik <br>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Dodaj</button>
     </form>
 

@@ -21,8 +21,8 @@ import java.util.Map;
 
 public class AnimalDAOImpl implements AnimalDAO {
 
-    private static final String CREATE_ANIMAL ="INSERT INTO animal (animalName, animalDescription, animalAge, animalSex, animalType) VALUES(" +
-            " :name, :description, :age, :animalSex, :animalType);";
+    private static final String CREATE_ANIMAL ="INSERT INTO animal (animalName, animalDescription, animalAge, animalSex, animalType, animalPhoto) VALUES(" +
+            " :name, :description, :age, :animalSex, :animalType, :animalPhoto);";
     private static final String GET_ALL_ANIMAL="SELECT * FROM animal;";
     private NamedParameterJdbcTemplate template;
 
@@ -39,6 +39,7 @@ public class AnimalDAOImpl implements AnimalDAO {
         mapParam.put("age", newAnimal.getAge());
         mapParam.put("animalSex", newAnimal.getAnimalSex().toString());
         mapParam.put("animalType", newAnimal.getAnimalType().toString());
+        mapParam.put("animalPhoto",newAnimal.getAnimalPhoto());
         KeyHolder holder = new GeneratedKeyHolder();
         SqlParameterSource parameterSource = new MapSqlParameterSource(mapParam);
         int updateRows = template.update(CREATE_ANIMAL, parameterSource, holder);
@@ -102,6 +103,7 @@ public class AnimalDAOImpl implements AnimalDAO {
                     animal.setAnimalType(AnimalType.OTHER);
                     break;
             }
+            animal.setAnimalPhoto(resultSet.getString("animalPhoto"));
             return animal;
         }
     }

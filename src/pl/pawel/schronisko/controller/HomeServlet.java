@@ -16,14 +16,8 @@ import java.util.List;
 @WebServlet("")
 public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        saveAnimalsInRequest(request);
        // System.out.println(request.getAttribute("animals"));
         request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
     }
 
-    private void saveAnimalsInRequest(HttpServletRequest request) {
-        AnimalService animalService = new AnimalService();
-        List<Animal> animals = animalService.getAllAnimal();
-        request.setAttribute("animals", animals);
-    }
 }

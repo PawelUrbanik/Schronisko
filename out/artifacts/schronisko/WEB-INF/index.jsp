@@ -18,7 +18,6 @@
     <link href="${pageContext.request.contextPath}/resources/css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-  <!--<jsp:include page="fragment/navbar.jspf"/> -->
   <c:choose>
    <c:when test="${privigiles eq 'staff'}">
     <jsp:include page="fragment/navbarStaff.jsp"/>
@@ -108,28 +107,6 @@
     </div>
   </div>
 
-  <c:if test="${not empty requestScope.animals}">
-  <div class="container">
-    <div class="row">
-    <c:forEach var="animal" items="${requestScope.animals}">
-      <div class="container">
-        <div class="col-sm-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading"><c:out value="${animal.name}"/></div>
-            <div class="well well-sm centered"><c:out value="${animal.age}" /></div>
-            <a href="#" class="btn btn-block btn-primary btn-warning"><span class="glyphicon glyphicon-arrow-down"></span>  </a>
-          </div>
-          <div class="col col-md-11 col-sm-10">
-            <h3 class="centered"><a href="<c:out value="${animal.animalId}" />"><c:out value="${animal.name}" /></a></h3>
-            <p><c:out value="${animal.description}" /></p>
-            <a href="<c:out value="${animal.animalType}" />" class="btn btn-default btn-xs">Przejdź do strony</a>
-          </div>
-        </div>
-      </div>
-    </c:forEach>
-  </c:if>
-    </div>
-</div>
   <jsp:include page="fragment/footer.jspf"/>
   <script src="http://code.jquery.com/jquery-1.11.2.min.js" ></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>

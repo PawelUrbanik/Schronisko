@@ -9,7 +9,7 @@ import pl.pawel.schronisko.model.AnimalType;
 import java.util.List;
 
 public class AnimalService {
-    public void addAnimal(String name, String description, int age, String sex, String type)
+    public void addAnimal(String name, String description, int age, String sex, String type, String photo)
     {
         Animal animal = new Animal();
         animal.setName(name);
@@ -33,6 +33,7 @@ public class AnimalService {
         {
             animal.setAnimalType(AnimalType.OTHER);
         }
+        animal.setAnimalPhoto(photo);
         DAOFactory factory = DAOFactory.getDAOFactory();
         AnimalDAO animalDAO = factory.getAnimalDAO();
         animalDAO.create(animal);

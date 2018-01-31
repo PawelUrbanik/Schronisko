@@ -7,6 +7,7 @@ public class Animal {
     private int age;
     private AnimalSex animalSex;
     private  AnimalType animalType;
+    private String animalPhoto;
 
     public Animal() {
     }
@@ -19,15 +20,17 @@ public class Animal {
         this.setAge(animal.getAge());
         this.setAnimalSex(animal.getAnimalSex());
         this.setAnimalType(animal.getAnimalType());
+        this.setAnimalPhoto(animal.getAnimalPhoto());
     }
 
-    public Animal(long animalId, String name, String description, int age, AnimalSex animalSex, AnimalType animalType) {
+    public Animal(long animalId, String name, String description, int age, AnimalSex animalSex, AnimalType animalType, String animalPhoto) {
         this.animalId = animalId;
         this.name = name;
         this.description = description;
         this.age = age;
         this.animalSex = animalSex;
         this.animalType = animalType;
+        this.animalPhoto = animalPhoto;
     }
 
     public long getAnimalId() {
@@ -76,6 +79,14 @@ public class Animal {
 
     public void setAnimalType(AnimalType animalType) {
         this.animalType = animalType;
+    }
+
+    public String getAnimalPhoto() {
+        return animalPhoto;
+    }
+
+    public void setAnimalPhoto(String animalPhoto) {
+        this.animalPhoto = animalPhoto;
     }
 
     @Override

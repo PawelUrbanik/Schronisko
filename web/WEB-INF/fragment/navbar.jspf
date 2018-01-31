@@ -23,7 +23,7 @@
                 <li><a href="/">Strona główna</a></li>
                 <li><a href="${pageContext.request.contextPath}/addStaff">O aplikacji</a></li>
                 <li><a href="#contacts">Kontakt</a></li>
-                <li><a href="#przegladaj" class="btn btn-default">Przeglądaj</a></li>
+                <li><a href="${pageContext.request.contextPath}/review" class="btn btn-default">Przeglądaj</a></li>
                 <ul class="nav navbar-nav navbar-right">
                     <c:choose>
                         <c:when test="${not empty sessionScope.user}">
