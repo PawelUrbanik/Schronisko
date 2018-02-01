@@ -1,7 +1,9 @@
 package pl.pawel.schronisko.controller;
 
 import pl.pawel.schronisko.model.Animal;
+import pl.pawel.schronisko.model.Contact;
 import pl.pawel.schronisko.service.AnimalService;
+import pl.pawel.schronisko.service.ContactService;
 import pl.pawel.schronisko.util.ConnectionProvider;
 
 import javax.servlet.ServletException;
@@ -16,7 +18,10 @@ import java.util.List;
 @WebServlet("")
 public class HomeServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-       // System.out.println(request.getAttribute("animals"));
+//        ContactService contactService = new ContactService();
+//        List<Contact> contacts = contactService.getAllContacts();
+//        request.setAttribute("contacts", contacts);
+//        System.out.println(request.getAttribute("contacts"));
         request.getRequestDispatcher("WEB-INF/index.jsp").forward(request,response);
     }
 

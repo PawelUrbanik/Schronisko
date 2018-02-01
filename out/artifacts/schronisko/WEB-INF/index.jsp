@@ -18,6 +18,7 @@
     <link href="${pageContext.request.contextPath}/resources/css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+
   <c:choose>
    <c:when test="${privigiles eq 'staff'}">
     <jsp:include page="fragment/navbarStaff.jsp"/>

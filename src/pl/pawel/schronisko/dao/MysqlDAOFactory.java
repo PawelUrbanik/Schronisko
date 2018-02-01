@@ -12,6 +12,11 @@ public class MysqlDAOFactory extends DAOFactory {
     }
 
     @Override
+    public ContactDAO getContactDAO() {
+        return new ContactDAOImpl();
+    }
+
+    @Override
     public FavoritesDAO getFavoritesDAO() {
         return new FavoritesDAOImpl();
     }
