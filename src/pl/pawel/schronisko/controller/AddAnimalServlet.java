@@ -32,7 +32,7 @@ public class AddAnimalServlet extends HttpServlet {
         System.out.println("to uri" + photo.toURI());
         String photoPath = photo.getAbsolutePath();
         AnimalService animalService = new AnimalService();
-        animalService.addAnimal(name,description,age,sex,type, photoPath);
+        animalService.addAnimal(name,description,age,sex,type, photo.getName());
         response.sendRedirect(request.getContextPath()+"/");
     }
 
