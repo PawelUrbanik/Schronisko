@@ -35,12 +35,12 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-8 main">
                             <div class="blog-post">
-                                <h2 class="blog-post-title"><a href="#contactAnimal"> ${animal.name}</a> </h2>
+                                <h2 class="blog-post-title"><a href="/contactAnimal?animalId=${animal.animalId}"> ${animal.name}</a> </h2>
                                 <p class="blog-post-meta">Rodzaj: ${animal.animalType}</p>
                                 <p><img src="../resources/img/${animal.animalPhoto}" alt="Kontak w sprawie tego zwierzęcia" class="thumbnail">Wiek: ${animal.age}</p>
                                 <p>Płeć: ${animal.animalSex}</p>
                                 <p>Opis: ${animal.description}</p>
-                                <a href="#contactAnimal" class="btn btn-default">Skontaktuj się i przygarnij</a>
+                                <a href="/contactAnimal?animalId=${animal.animalId}" class="btn btn-default">Skontaktuj się i przygarnij</a>
                             </div>
                         </div>
                     </div>

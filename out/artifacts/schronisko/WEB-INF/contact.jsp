@@ -30,7 +30,7 @@
     </c:otherwise>
 </c:choose>
 
-<div class="container">
+<div class="container well">
 <form action="contact" method="post">
     <div class="form-group">
         <label for="name">Imię</label>

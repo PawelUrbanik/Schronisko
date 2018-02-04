@@ -46,4 +46,13 @@ public class AnimalService {
         List<Animal> animals = animalDAO.getAll();
         return animals;
     }
+
+    public Animal getAnimalById(Long key)
+    {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        AnimalDAO animalDAO = factory.getAnimalDAO();
+        Animal animal = new Animal();
+        animal = animalDAO.read(key);
+        return animal;
+    }
 }

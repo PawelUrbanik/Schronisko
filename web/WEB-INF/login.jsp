@@ -18,8 +18,8 @@
 <body>
         <jsp:include page="fragment/navbar.jspf"/>
 
-<div class="container">
-
+<div class="container well">
+    <div class="col-xs-12 col-sm-offset-2 col-md-4">
     <form class="form-signin" action="j_security_check" method="post">
         <h2 class="form-signin-heading">Zaloguj się</h2>
         <input name="j_username" type="text" class="form-control" placeholder="Nazwa użytkownika" required autofocus>
@@ -27,8 +27,9 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         <a href="${pageContext.request.contextPath}/register">Zarejestruj</a>
     </form>
-
+    </div>
 </div> <!-- /container -->
+        <br>
         <jsp:include page="fragment/footer.jspf"/>
         <script src="http://code.jquery.com/jquery-1.11.2.min.js" ></script>
         <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>

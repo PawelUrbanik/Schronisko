@@ -7,6 +7,7 @@ public abstract class DAOFactory {
     public abstract AnimalDAO getAnimalDAO();
     public abstract UserDAO getUserDAO();
     public abstract ContactDAO getContactDAO();
+    public abstract ContactAnimalDAO getContactAnimalDAO();
     public abstract FavoritesDAO getFavoritesDAO();
 
     public static DAOFactory getDAOFactory()

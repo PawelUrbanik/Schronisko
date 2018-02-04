@@ -24,6 +24,7 @@ public class AnimalDAOImpl implements AnimalDAO {
     private static final String CREATE_ANIMAL ="INSERT INTO animal (animalName, animalDescription, animalAge, animalSex, animalType, animalPhoto) VALUES(" +
             " :name, :description, :age, :animalSex, :animalType, :animalPhoto);";
     private static final String GET_ALL_ANIMAL="SELECT * FROM animal;";
+    private static final String READ_ANIMAL = "SELECT * FROM animal WHERE animalId=:animalId;";
     private NamedParameterJdbcTemplate template;
 
     public AnimalDAOImpl() { template= new NamedParameterJdbcTemplate(ConnectionProvider.getDataSource());}
@@ -52,7 +53,10 @@ public class AnimalDAOImpl implements AnimalDAO {
 
     @Override
     public Animal read(Long primaryKey) {
-        return null;
+        Animal resultAnimal = null;
+        SqlParameterSource parameterSource = new MapSqlParameterSource("animalId", primaryKey);
+        resultAnimal = template.queryForObject(READ_ANIMAL, parameterSource, new AnimalRowMapper());
+        return resultAnimal;
     }
 
     @Override
