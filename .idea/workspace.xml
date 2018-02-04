@@ -7,33 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8015b9c6-77bb-4def-bb9f-701ae1c9cbd4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/contactAnimal.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/manage.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/controller/HomeServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/controller/HomeServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/DAOFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/DAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/MysqlDAOFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/MysqlDAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/AnimalService.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/AnimalService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/controller/HomeServlet.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/controller/HomeServlet.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/DAOFactory.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/DAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/MysqlDAOFactory.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/MysqlDAOFactory.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/AnimalService.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/AnimalService.class" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/DAOFactory.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/DAOFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/MysqlDAOFactory.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/MysqlDAOFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/contact.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/contact.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf" afterPath="$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/review.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/review.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/about.jsp" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/about.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/resources/css/styles.css" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/resources/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/about.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/about.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
       <change beforePath="$PROJECT_DIR$/web/resources/css/styles.css" afterPath="$PROJECT_DIR$/web/resources/css/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,38 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ContactAnimalServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactAnimalDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="32" column="153" lean-forward="false" selection-start-line="32" selection-start-column="153" selection-end-line="32" selection-end-column="153" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#2227#2228#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#2326#2327#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2407#2408#0" expanded="true" />
-                <element signature="e#2435#2436#0" expanded="true" />
-                <marker date="1517726996910" expanded="true" signature="753:902" ph="INSERT INTO contactanimal" />
-                <marker date="1517726996910" expanded="true" signature="949:976" ph="SELECT * FRO... contactanimal" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ContactAnimal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,34 +43,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactAnimal.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contactAnimal.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/contactAnimal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
+            <state relative-caret-position="1302">
               <caret line="62" column="121" lean-forward="false" selection-start-line="62" selection-start-column="121" selection-end-line="62" selection-end-column="121" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactAnimalService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java">
+      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/about.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="409">
+              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.jspf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbar.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="58" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jspf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="104" column="50" lean-forward="false" selection-start-line="104" selection-start-column="50" selection-end-line="104" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/manage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="48" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,8 +162,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/register.jsp" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/AboutServlet.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/AddAnimalServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/about.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbar.jspf" />
         <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf" />
         <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp" />
@@ -174,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ReviewServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/review.jsp" />
-        <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/contact.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf" />
@@ -183,6 +186,10 @@
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" />
+        <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/about.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/manage.jsp" />
       </list>
     </option>
   </component>
@@ -226,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,9 +352,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -546,12 +553,13 @@
       <workItem from="1516816530243" duration="1051000" />
       <workItem from="1517297316562" duration="9001000" />
       <workItem from="1517383602816" duration="18609000" />
-      <workItem from="1517555510229" duration="16368000" />
+      <workItem from="1517555510229" duration="18455000" />
+      <workItem from="1517740445630" duration="2073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61165000" />
+    <option name="totallyTimeSpent" value="65325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
@@ -574,13 +582,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27991217" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23854166" sideWeight="0.4895719" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23854166" sideWeight="0.51042813" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23854166" sideWeight="0.4832317" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23854166" sideWeight="0.5167683" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -589,6 +596,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,20 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/util/ConnectionProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -654,14 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="64" lean-forward="false" selection-start-line="0" selection-start-column="64" selection-end-line="0" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -868,7 +854,7 @@
         <state relative-caret-position="588">
           <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -916,50 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2247">
-          <caret line="113" column="86" lean-forward="true" selection-start-line="110" selection-start-column="2" selection-end-line="113" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="91" column="22" lean-forward="false" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbar.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -998,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1016,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="357">
           <caret line="32" column="153" lean-forward="false" selection-start-line="32" selection-start-column="153" selection-end-line="32" selection-end-column="153" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1037,7 +983,7 @@
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1059,8 +1005,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/contactAnimal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
+        <state relative-caret-position="1302">
           <caret line="62" column="121" lean-forward="false" selection-start-line="62" selection-start-column="121" selection-end-line="62" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbar.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="58" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="104" column="18" lean-forward="false" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="104" column="50" lean-forward="false" selection-start-line="104" selection-start-column="50" selection-end-line="104" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>

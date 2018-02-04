@@ -30,6 +30,26 @@
     </c:choose>
 
 
+    <div class="container-fluid main-photo">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 caption2">
+                        <h1>Aplikacja 4 łapy</h1>
+                        <p>Auor: <a class="btn-link" href="https://github.com/PawelUrbanik">Paweł Urbanik</a> </p>
+                        <p>Aplikacja umożliwia znalezienie nowego domu potrzebującym zwierzętom</p>
+                        <p><strong>1.</strong> Przeglądasz dostępne zwierzęta dostępne w schronisku</p>
+                        <p><strong>2.</strong> Kontaktujesz się z nami w sprawaie konkretnego zwierzęcia</p>
+                        <p><strong>3.</strong> Ustalamy Twoją wizytę w schronisku i prowadzimy dalsze procesy</p>
+                        <a href="/review" class="btn btn-default"><strong>Przeglądaj aktualnie dostępne zwierzęta</strong></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <jsp:include page="fragment/footer.jspf"/>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js" ></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>

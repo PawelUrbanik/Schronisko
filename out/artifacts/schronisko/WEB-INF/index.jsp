@@ -37,10 +37,11 @@
         <div class="row">
           <div class="col-xs-8 col-xs-offset-2 caption">
             <h1>Patrz na świat z innej perspektywy</h1>
-            <p>Nasza aplikacja pozwala znalezc dom potrzebującym zwierzętom</p>
-            <p>Internetowy donejt</p>
-            <a href="#" class="btn btn-default">Kup <strong>pożywienie</strong></a>
-            <a href="#" class="btn btn-link">Przekaż <strong>pieniądze</strong></a>
+            <p>Nasza aplikacja pozwala znalezc dom potrzebującym zwierzętom.</p>
+            <p>Wspieramy adopcję zwierząt ze schroniska.</p>
+            <p>Liczymy również na każdą inną pomoc.</p>
+            <a href="/review" class="btn btn-default"><strong>Przeglądaj</strong></a>
+            <a href="/contact" class="btn btn-default"><strong>Wspomóż w inny sposób</strong></a>
 
           </div>
         </div>
@@ -101,9 +102,8 @@
   <div class="container call-to-action">
     <div class="row">
       <div class="col-xs-12">
-        <h2>Nie pozwol na zmarnowanie talentu</h2>
-        <a href="#" class="btn btn-default">Kup aplikacje za 29.99</a><br>
-        <a href="#" class="btn btn-link">Wyprobuj demo</a>
+        <h2>Nie pozwol na cierpienie tych zwierząt</h2>
+        <a href="/review" class="btn btn-default">Przeglądaj potrzebujące zwierzęta</a><br>
       </div>
     </div>
   </div>
