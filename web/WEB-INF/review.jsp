@@ -33,7 +33,7 @@
             <c:forEach var="animal" items="${requestScope.animals}">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-8 main">
+                        <div class="col-xs-12 col-sm-8 main well">
                             <div class="blog-post">
                                 <h2 class="blog-post-title"><a href="/contactAnimal?animalId=${animal.animalId}"> ${animal.name}</a> </h2>
                                 <p class="blog-post-meta">Rodzaj: ${animal.animalType}</p>

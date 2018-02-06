@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: Paweł
-  Date: 04.02.2018
-  Time: 12:06
+  Date: 06.02.2018
+  Time: 07:17
   To change this template use File | Settings | File Templates.
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -29,28 +29,27 @@
     </c:otherwise>
 </c:choose>
 
-<c:if test="${not empty requestScope.animals}">
-    <c:forEach var="animal" items="${requestScope.animals}">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 main">
-                    <div class="blog-post well">
-                        <h2 class="blog-post-title"><a href="/contactAnimal?animalId=${animal.animalId}"> ${animal.name}</a> </h2>
-                        <p class="blog-post-meta">Rodzaj: ${animal.animalType}</p>
-                        <p><img src="../resources/img/${animal.animalPhoto}" alt="Kontak w sprawie tego zwierzęcia" class="thumbnail">Wiek: ${animal.age}</p>
-                        <p>Płeć: ${animal.animalSex}</p>
-                        <p>Opis: ${animal.description}</p>
-                        <form action="/manage" method="post">
-                            <input type="hidden" name="animalId" value="${animal.animalId}">
-                          <button type="submit" name="submitValue" value="delete" class="btn btn-danger">Usuń zwierzę</button>
-                        </form>
-                        <!--<a href="/contactAnimal?animalId=${animal.animalId}" class="btn btn-default">Skontaktuj się i przygarnij</a> -->
-                </div>
+    <c:if test="${not empty requestScope.users}">
+    <c:forEach var="user" items="${requestScope.users}">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 main">
+            <div class="blog-post well">
+                <h2 class="blog-post-title">Użytkownik: ${user.username} </h2>
+                <p class="blog-post-meta">Imię: ${user.firstname} </p>
+                 <p class="blog-post-meta">   Nazwisko: ${user.lastname}</p>
+                <p><span class="glyphicon glyphicon-user">Email: ${user.email}</p>
+                <form action="/deleteUser" method="post">
+                    <input type="hidden" name="userId" value="${user.id}">
+                    <c:if test="${user.id ne 1}">
+                        <button type="submit" name="submitValue" value="delete" class="btn btn-danger">Usuń Pracownika</button>
+                    </c:if>
+                </form>
             </div>
         </div>
+    </div>
     </c:forEach>
-</c:if>
-
+    </c:if>
 
 <jsp:include page="fragment/footer.jspf"/>
 <script src="http://code.jquery.com/jquery-1.11.2.min.js" ></script>

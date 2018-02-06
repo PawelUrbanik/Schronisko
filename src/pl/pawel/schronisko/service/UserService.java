@@ -4,6 +4,8 @@ import pl.pawel.schronisko.dao.DAOFactory;
 import pl.pawel.schronisko.dao.UserDAO;
 import pl.pawel.schronisko.model.User;
 
+import java.util.List;
+
 public class UserService {
     public void addUser(String username, String firstname, String lastname, String email, String password)
     {
@@ -53,5 +55,19 @@ public class UserService {
         UserDAO userDAO = factory.getUserDAO();
         User user = userDAO.getUserByUsername(username);
         return user;
+    }
+
+    public void deleteUserById(Long userId)
+    {
+        DAOFactory factory =DAOFactory.getDAOFactory();
+        UserDAO userDAO = factory.getUserDAO();
+        userDAO.delete(userId);
+    }
+    public List<User> getAllUsers()
+    {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        UserDAO userDAO = factory.getUserDAO();
+        List<User> users = userDAO.getAll();
+        return users;
     }
 }

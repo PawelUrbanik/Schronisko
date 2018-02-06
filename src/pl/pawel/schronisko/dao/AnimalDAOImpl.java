@@ -25,6 +25,7 @@ public class AnimalDAOImpl implements AnimalDAO {
             " :name, :description, :age, :animalSex, :animalType, :animalPhoto);";
     private static final String GET_ALL_ANIMAL="SELECT * FROM animal;";
     private static final String READ_ANIMAL = "SELECT * FROM animal WHERE animalId=:animalId;";
+    private static final String DELETE_BY_ID = "DELETE FROM animal WHERE animalId=:animalId;";
     private NamedParameterJdbcTemplate template;
 
     public AnimalDAOImpl() { template= new NamedParameterJdbcTemplate(ConnectionProvider.getDataSource());}
@@ -66,7 +67,14 @@ public class AnimalDAOImpl implements AnimalDAO {
 
     @Override
     public boolean delete(Long key) {
-        return false;
+        SqlParameterSource parameterSource = new MapSqlParameterSource("animalId", key);
+        int updateRows = template.update(DELETE_BY_ID, parameterSource);
+        if (updateRows > 0)
+        {
+            return true;
+        }
+        else
+            return false;
     }
 
     @Override

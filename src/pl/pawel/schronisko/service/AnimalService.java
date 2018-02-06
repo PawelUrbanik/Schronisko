@@ -55,4 +55,12 @@ public class AnimalService {
         animal = animalDAO.read(key);
         return animal;
     }
+
+    public  void deleteAnimalById(Long key)
+    {
+        DAOFactory factory = DAOFactory.getDAOFactory();
+        AnimalDAO animalDAO = factory.getAnimalDAO();
+        boolean rowsupdated = animalDAO.delete(key);
+        System.out.println(rowsupdated);
+    }
 }

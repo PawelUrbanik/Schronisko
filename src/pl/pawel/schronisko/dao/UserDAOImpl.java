@@ -22,6 +22,8 @@ public class UserDAOImpl implements UserDAO {
             "WHERE userId =:userId;" ;
     private static final String READ_USER_BY_USERNAME = "SELECT userId, username, firstname, lastname, email, password FROM user WHERE username = :username ;";
     private static final String READ_PRIVIGILES = "SELECT role_name FROM user_role WHERE username = :username ;";
+    private static final  String DELETE_BY_ID = "DELETE FROM user WHERE user.userId=:userId;";
+    private static final String GET_ALL_USERS = "SELECT * FROM user;";
 
     private NamedParameterJdbcTemplate template;
 
@@ -105,14 +107,19 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public boolean delete(Long key) {
-        return false;
+        SqlParameterSource parameterSource = new MapSqlParameterSource("userId", key);
+        int rowDeleted = template.update(DELETE_BY_ID, parameterSource);
+        if (rowDeleted < 0) {
+            return true;
+        } else {
+            return false;
+        }
     }
-
     @Override
     public List<User> getAll() {
-        return null;
+        List<User> users = template.query(GET_ALL_USERS,new UserRowMapper());
+        return users;
     }
-
     private class UserRowMapper implements RowMapper<User>
     {
 
