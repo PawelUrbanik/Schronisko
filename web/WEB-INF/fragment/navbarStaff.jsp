@@ -23,6 +23,7 @@
                 <li><a href="/about">O aplikacji</a></li>
                 <li><a href="/contact">Kontakt</a></li>
                 <li><a href="${pageContext.request.contextPath}/manage" class="btn btn-default">Zarządzaj zasobem</a></li>
+                <li><a href="${pageContext.request.contextPath}/messages">Wiadomości</a> </li>
                 <ul class="nav navbar-nav navbar-right">
                     <c:choose>
                         <c:when test="${not empty sessionScope.user}">

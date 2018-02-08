@@ -7,35 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8015b9c6-77bb-4def-bb9f-701ae1c9cbd4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/DeleteUserServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/deleteUser.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/MessagesServlet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/Messages.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/AnimalDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl$PrivigilesRowMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl$PrivigilesRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl$UserRowMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl$UserRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/dao/UserDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/AnimalService.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/AnimalService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/classes/pl/pawel/schronisko/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/fragment/navbarAdmin.jspf" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/fragment/navbarAdmin.jspf" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/fragment/navbarStaff.jsp" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/fragment/navbarStaff.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/review.jsp" afterPath="$PROJECT_DIR$/out/artifacts/schronisko/WEB-INF/review.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl$AnimalRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/AnimalDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl$PrivigilesRowMapper.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl$PrivigilesRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl$UserRowMapper.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl$UserRowMapper.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/dao/UserDAOImpl.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/AnimalService.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/AnimalService.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/UserService.class" afterPath="$PROJECT_DIR$/out/production/Schronisko/pl/pawel/schronisko/service/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/UserDAOImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" />
-      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/UserService.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" />
+      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" />
+      <change beforePath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java" afterPath="$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf" afterPath="$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/manage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/manage.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/review.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/review.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,58 +30,111 @@
       <file leaf-file-name="manage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/manage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="346">
+              <caret line="45" column="31" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="45" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteUser.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/deleteUser.jsp">
+      <file leaf-file-name="Messages.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Messages.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+            <state relative-caret-position="693">
+              <caret line="48" column="77" lean-forward="false" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java">
+      <file leaf-file-name="review.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
+            <state relative-caret-position="209">
+              <caret line="32" column="68" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/User.java">
+      <file leaf-file-name="ContactAnimalServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbar.jspf">
+      <file leaf-file-name="ContactAnimalDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="118" column="25" lean-forward="true" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#2647#2648#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="e#2746#2747#0" expanded="true" />
+                <element signature="e#2774#2775#0" expanded="true" />
+                <element signature="e#2827#2828#0" expanded="true" />
+                <element signature="e#2855#2856#0" expanded="true" />
+                <marker date="1517909085802" expanded="true" signature="883:1032" ph="INSERT INTO contactanimal" />
+                <marker date="1517909085802" expanded="true" signature="1079:1086" ph="SELECT * FRO... contactanimal" />
+                <marker date="1517909085802" expanded="true" signature="1079:1296" ph="SELECT anima... contactanimal" />
+                <marker date="1517909085802" expanded="true" signature="1079:1299" ph="SELECT anima... contactanimal" />
+                <marker date="1517909085802" expanded="true" signature="1079:1306" ph="SELECT anima... contactanimal" />
+                <marker date="1517909085802" expanded="true" signature="1079:1372" ph="SELECT anima... contactanimal" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactAnimalService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactAnimal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+              <folding>
+                <element signature="e#909#910#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Contact.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret line="3" column="58" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="60" />
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbarAdmin.jspf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf">
+      <file leaf-file-name="MessagesServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/MessagesServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="294">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -110,38 +143,8 @@
       <file leaf-file-name="DeleteUserServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/DeleteUserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/UserDAOImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-              <folding>
-                <marker date="1517900427674" expanded="true" signature="754:895" ph="INSERT INTO user... " />
-                <marker date="1517900427674" expanded="true" signature="943:1053" ph="SELECT userI... user" />
-                <marker date="1517900427674" expanded="true" signature="1115:1213" ph="SELECT userI... user" />
-                <marker date="1517900427674" expanded="true" signature="1269:1327" ph="SELECT role_... user_role" />
-                <marker date="1517900427674" expanded="true" signature="1381:1398" ph="DELETE FROM user... " />
-                <marker date="1517900427674" expanded="true" signature="1381:1423" ph="DELETE FROM user... " />
-                <marker date="1517900427674" expanded="true" signature="1476:1494" ph="SELECT * FRO... user" />
-                <marker date="1517900427674" expanded="true" signature="2255:2304" ph="INSERT INTO user_role... " />
-                <marker date="1517900427674" expanded="true" signature="3055:3126" ph="INSERT INTO user_role... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactAnimalServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="336">
+              <caret line="25" column="70" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -190,26 +193,28 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/contact.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/login.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/fragment/footer.jspf" />
-        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/contactAnimal.jsp" />
-        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" />
-        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" />
         <option value="$PROJECT_DIR$/web/resources/css/styles.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/about.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/review.jsp" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/service/AnimalService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/manage.jsp" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java" />
-        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/service/UserService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/DeleteUserServlet.java" />
         <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/deleteUser.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/Messeges.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/Messages.jsp" />
+        <option value="$PROJECT_DIR$/src/pl/pawel/schronisko/controller/MessagesServlet.java" />
       </list>
     </option>
   </component>
@@ -576,16 +581,15 @@
       <workItem from="1517383602816" duration="18609000" />
       <workItem from="1517555510229" duration="18455000" />
       <workItem from="1517740445630" duration="8751000" />
-      <workItem from="1517896236068" duration="5258000" />
+      <workItem from="1517896236068" duration="13931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77261000" />
+    <option name="totallyTimeSpent" value="85934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
@@ -605,11 +609,12 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2788145" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2788145" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23854166" sideWeight="0.47859496" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23854166" sideWeight="0.52140504" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23854166" sideWeight="0.47792998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23854166" sideWeight="0.52207" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -618,7 +623,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,22 +636,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/addStaff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/AnimalSex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/AnimalType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -701,17 +689,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,6 +703,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="63" column="19" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#980#981#0" expanded="false" />
+            <element signature="e#1073#1074#0" expanded="false" />
+            <element signature="e#1878#1879#0" expanded="false" />
+            <element signature="e#1905#1906#0" expanded="false" />
+            <element signature="e#1971#1972#0" expanded="false" />
+            <element signature="e#1999#2000#0" expanded="false" />
+            <element signature="e#2052#2053#0" expanded="false" />
+            <element signature="e#2080#2081#0" expanded="false" />
+            <marker date="1517483491905" expanded="true" signature="735:830" ph="INSERT INTO Contact... " />
+            <marker date="1517483491905" expanded="true" signature="877:898" ph="SELECT * FRO... contact" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,6 +744,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -779,43 +779,6 @@
         <state relative-caret-position="483">
           <caret line="30" column="56" lean-forward="true" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="153" lean-forward="false" selection-start-line="32" selection-start-column="153" selection-end-line="32" selection-end-column="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
-            <element signature="e#949#950#0" expanded="false" />
-            <element signature="e#995#996#0" expanded="false" />
-            <element signature="e#1030#1031#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,14 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="70" lean-forward="false" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -938,39 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="76" column="25" lean-forward="false" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-          <folding>
-            <marker date="1517896547683" expanded="true" signature="927:1115" ph="INSERT INTO animal... " />
-            <marker date="1517896547683" expanded="true" signature="1167:1187" ph="SELECT * FRO... animal" />
-            <marker date="1517896547683" expanded="true" signature="1238:1283" ph="SELECT * FRO... animal" />
-            <marker date="1517896547683" expanded="true" signature="1335:1378" ph="DELETE FROM animal... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="745">
           <caret line="70" column="21" lean-forward="true" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -983,42 +909,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/manage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/DeleteUserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1051,9 +945,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/deleteUser.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="470">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="58" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbarAdmin.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/fragment/navbarStaff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="84" lean-forward="false" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/AnimalDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="117" column="70" lean-forward="true" selection-start-line="89" selection-start-column="12" selection-end-line="117" selection-end-column="70" />
+          <folding>
+            <marker date="1517896547683" expanded="true" signature="927:1115" ph="INSERT INTO animal... " />
+            <marker date="1517896547683" expanded="true" signature="1167:1187" ph="SELECT * FRO... animal" />
+            <marker date="1517896547683" expanded="true" signature="1238:1283" ph="SELECT * FRO... animal" />
+            <marker date="1517896547683" expanded="true" signature="1335:1378" ph="DELETE FROM animal... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ManageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/dao/ContactAnimalDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="118" column="25" lean-forward="true" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#2647#2648#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+            <element signature="e#2774#2775#0" expanded="true" />
+            <element signature="e#2827#2828#0" expanded="true" />
+            <element signature="e#2855#2856#0" expanded="true" />
+            <marker date="1517909085802" expanded="true" signature="883:1032" ph="INSERT INTO contactanimal" />
+            <marker date="1517909085802" expanded="true" signature="1079:1086" ph="SELECT * FRO... contactanimal" />
+            <marker date="1517909085802" expanded="true" signature="1079:1296" ph="SELECT anima... contactanimal" />
+            <marker date="1517909085802" expanded="true" signature="1079:1299" ph="SELECT anima... contactanimal" />
+            <marker date="1517909085802" expanded="true" signature="1079:1306" ph="SELECT anima... contactanimal" />
+            <marker date="1517909085802" expanded="true" signature="1079:1372" ph="SELECT anima... contactanimal" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/ContactAnimalServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="56" lean-forward="false" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/model/ContactAnimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+          <folding>
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/review.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="32" column="68" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/manage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="45" column="31" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Messages.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="48" column="77" lean-forward="false" selection-start-line="48" selection-start-column="77" selection-end-line="48" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/DeleteUserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="25" column="70" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/controller/MessagesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pl/pawel/schronisko/service/ContactAnimalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
